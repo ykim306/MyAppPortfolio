@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="banner">My Nanodegree Apps!</string>
+    <string name="description_red">Projects in red have not started.</string>
+    <string name="description_yellow">Projects in yellow are in progress.</string>
+    <string name="description_green">Projects in green are finished.</string>
+    <string name="proj01">POPULAR MOVIES</string>
+    <string name="proj02">STOCK HAWK</string>
+    <string name="proj03">BUILD IT BIGGER</string>
+    <string name="proj04">MAKE YOUR APP MATERIAL</string>
+    <string name="proj05">GO UBIQUITOUS</string>
+    <string name="proj06">CAPSTONE</string>
+</resources>

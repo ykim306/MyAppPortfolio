@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="app.com.example.android.myappportfolio.MainActivity">
+
+    <TextView
+        style="@style/defaultTextView"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"
+        android:text="@string/banner" />
+
+    <TextView
+        style="@style/defaultTextView"
+        android:text="@string/description_red" />
+
+    <TextView
+        style="@style/defaultTextView"
+        android:text="@string/description_yellow" />
+
+    <TextView
+        style="@style/defaultTextView"
+        android:layout_marginBottom="20dp"
+        android:text="@string/description_green" />
+
+    <Button
+        android:id="@+id/btnProj01"
+        style="@style/defaultButton"
+        android:text="@string/proj01"
+        android:onClick="displayProj01Toast" />
+
+    <Button
+        android:id="@+id/btnProj02"
+        style="@style/defaultButton"
+        android:text="@string/proj02"
+        android:onClick="displayProj02Toast" />
+
+    <Button
+        android:id="@+id/btnProj03"
+        style="@style/defaultButton"
+        android:text="@string/proj03"
+        android:onClick="displayProj03Toast" />
+
+    <Button
+        android:id="@+id/btnProj04"
+        style="@style/defaultButton"
+        android:text="@string/proj04"
+        android:onClick="displayProj04Toast" />
+
+    <Button
+        android:id="@+id/btnProj05"
+        style="@style/defaultButton"
+        android:text="@string/proj05"
+        android:onClick="displayProj05Toast" />
+
+    <Button
+        android:id="@+id/btnProj06"
+        style="@style/defaultButton"
+        android:text="@string/proj06"
+        android:onClick="displayProj06Toast"/>
+
+</LinearLayout>
